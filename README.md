@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+In order to set up this code on your local machine you can just clone and run the following command in your terminal to install all the required depedencies:
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
