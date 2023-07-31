@@ -1,0 +1,48 @@
+.review-showcase {
+    font-family: 'Urbanist';
+}
+
+.review-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review-box {
+    margin: 10px;
+    width: 40%;
+}
+
+.review-img {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.review-line1 {
+    display: flex;
+    font-size: 24px;
+}
+
+.review-location {
+    margin-right: auto;
+}
+
+.review-post {
+    margin-left: auto;
+}
+
+.review-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.review-review {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.read_post {
+    cursor: pointer;
+    margin: 20px 0;
+}

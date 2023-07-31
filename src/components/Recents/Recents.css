@@ -1,0 +1,26 @@
+.recents {
+    font-family: 'Urbanist';
+    margin: 80px auto;
+    width: 88%;
+}
+
+.recent-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.item-box {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+}
+
+.item-text {
+    padding: 4px 8px;
+}

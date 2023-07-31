@@ -1,13 +1,78 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800&display=swap');
+
+
+.container {
+  font-family: 'Urbanist';
+  margin: 20px 0;
+}
+
+/* Headings */
+
+.head {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-text {
+  width: 56%;
+}
+
+.topic {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.topic_description {
+  font-size: 24px;
+}
+
+.head-control-arrows {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.head-control-arrows img {
+  cursor: pointer;
+  width: 25%;
+}
+
+.head-control-buttons img {
+  width: 75%;
+}
+/* Picture Gallery */
+
+.picture-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.picture-cards {
+  width: 31%;
+}
+
+.picture-cards img {
+  margin: 5px;
+  width: 100%;
+}
+
+.picture-cards p {
+  padding: 5px;
+}
+
+.picture-text-small {
+  font-size: 24px;
+}
+
+.picture-text-big {
+  font-size: 36px;
+  font-weight: bold;
 }
